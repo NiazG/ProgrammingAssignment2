@@ -1,4 +1,4 @@
-my function must make cache the reversed matrix
+## function makes a special matrix
 
 makeCacheMatrix <- function(x = matrix()) {
                 m <- NULL
@@ -16,7 +16,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 
-## Write a short comment describing this function
+## The following function calculates the reverse of the matrix created with the above function.
 
 cacheSolve <- function(x, ...) {
                 m <- x$getreverse()
